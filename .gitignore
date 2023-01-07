@@ -1,6 +1,9 @@
 # Ignore mongo folder, this create when excecute docker image.
 /mongo
 
+# Ignore .env file
+.env
+
 # compiled output
 /dist
 /node_modules
