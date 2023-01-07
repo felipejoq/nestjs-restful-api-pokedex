@@ -26,6 +26,18 @@ $ npm i -g @nestjs/cli
 $ docker-compose up -d
 ```
 
+5. Reconstruir la base de datos con la semilla.
+   
+```
+$ GET -> http://localhost:3000/api/v1/seed
+```
+
+- Get con curl:
+```bash
+$ curl --request GET -sL \
+     --url 'http://localhost:3000/api/v1/seed'
+```
+
 ### Requerimientos - Stack:
 * mongodb
 * Nestjs
